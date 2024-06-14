@@ -55,21 +55,23 @@ A seguir, estão algumas imagens que ilustram as funcionalidades do projeto:
 
 # Como Utilizar
 
-1. **Clonar o Repositório**: Clone este repositório em seu computador utilizando o seguinte comando:
+### Antes de prosseguir com a instalação, por favor, observe:
+ *  Certifique-se de ter o Node.js e o npm instalados em sua máquina. Você pode instalá-los a partir do site oficial: https://nodejs.org/.
+ *  Certifique-se de ter o Git instalado em seu computador. Você pode baixá-lo em https://git-scm.com/.
 
-2. Clone este repositório para o seu ambiente local utilizando o comando:
+1. **Clonar o Repositório**: Clone este repositório em seu computador utilizando o seguinte comando:
 `git clone https://github.com/Ricardo-Rodrigues0/cidadealta-desafio-front-end.git`
 
-3. Navegue até o diretório do projeto:
+2. Navegue até o diretório do projeto:
 `cd cidadealta-frontend`
 
-4. Instale as dependências do projeto executando o comando:
+3. Instale as dependências do projeto executando o comando:
 `npm install`
 
-5. Após a instalação das dependências, você pode iniciar a aplicação com o comando:
+4. Após a instalação das dependências, você pode iniciar a aplicação com o comando:
 `npm start`
 
-6. O aplicativo estará disponível em seu navegador no endereço `http://localhost:3000`.
+5. O aplicativo estará disponível em seu navegador no endereço `http://localhost:3000`.
 
 Agora você pode explorar e interagir com o aplicativo localmente!
 
