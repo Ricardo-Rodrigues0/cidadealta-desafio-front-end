@@ -40,13 +40,13 @@ O Mini-Game é mais do que apenas um jogo - é uma oportunidade de demonstrar ha
 A seguir, estão algumas imagens que ilustram as funcionalidades do projeto:
 
 - Tela Inicial:
-<img src="./public/images/telaInicial.png" alt="Tela Inicial">
+<img src="./cidadealta-frontend/public/images/telaInicial.png" alt="Tela Inicial">
 
 - Tela MiniGame:
-<img src="./public/images/telaMiniGame.png" alt="Tela MiniGame">
+<img src="./cidadealta-frontend/public/images/telaMiniGame.png" alt="Tela MiniGame">
 
 - Tela Ranking:
-<img src="./public/images/telaRanking.png" alt="Tela Ranking">
+<img src="./cidadealta-frontend/public/images/telaRanking.png" alt="Tela Ranking">
 
 # Como Utilizar
 
