@@ -20,13 +20,18 @@ O Mini-Game é mais do que apenas um jogo - é uma oportunidade de demonstrar ha
 
 ---
 
-# Funcionalidades
+## Funcionalidades
 
-- **Iniciar o Jogo**: Os jogadores podem iniciar o jogo inserindo seu nome e escolhendo um personagem.
-- **Pressionar a Sequência**: Durante o jogo, o jogador deve pressionar a sequência de teclas na ordem correta antes que o tempo acabe.
-- **Barra de Progresso**: Uma barra de progresso mostra o tempo restante para o jogador completar a sequência.
-- **Feedback Auditivo**: Os jogadores recebem feedback auditivo quando pressionam corretamente ou incorretamente as teclas.
-- **Ranking de Melhores Tempos**: Os melhores tempos dos jogadores são registrados e exibidos em um ranking.
+- **Iniciar o Jogo:** Os jogadores podem iniciar o jogo inserindo seu nome e escolhendo um personagem. É importante notar que o jogo não inicia até que o jogador insira seu nome, pois esse nome é utilizado para salvar os dados do jogador no ranking. Caso o jogador não escolha um personagem, um dos cinco personagens disponíveis será escolhido aleatoriamente.
+
+- **Pressionar a Sequência:** Durante o jogo, o jogador deve pressionar a sequência de teclas na ordem correta antes que o tempo acabe.
+
+- **Barra de Progresso:** Uma barra de progresso mostra o tempo restante para o jogador completar a sequência.
+
+- **Feedback Auditivo:** Os jogadores recebem feedback auditivo quando pressionam corretamente ou incorretamente as teclas.
+
+- **Ranking de Melhores Tempos:** Os melhores tempos dos jogadores são registrados e exibidos em um ranking.
+
 
 # Tecnologias Utilizadas
 
@@ -71,3 +76,8 @@ Agora você pode explorar e interagir com o aplicativo localmente!
 ---
 
 Este projeto é uma demonstração das minhas habilidades em desenvolvimento frontend e foi desenvolvido como parte de um desafio para uma vaga de desenvolvedor frontend pela empresa Cidade Alta.
+
+
+## Atualizações Futuras
+
+Mesmo entrando quase perto do prazo final, esses três dias realizando o projeto foram muito bons para mim. Ganhei muita experiência e aprendi bastante durante esse período. Tenho várias ideias ainda para implementar no projeto, como melhorias na interface do usuário, integração de novas funcionalidades, otimização de desempenho e muito mais. Estou ansioso para continuar desenvolvendo e aprimorando este projeto no futuro.
