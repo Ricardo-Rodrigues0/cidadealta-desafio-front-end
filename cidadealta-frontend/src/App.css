@@ -1,0 +1,382 @@
+/* Estilo geral do corpo da página */
+body {
+  font-family: 'Times New Roman', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url('../public/images/background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Estilo do container principal */
+.container {
+  color: rgb(216, 216, 216);
+  border-radius: 5px;
+  padding: 50px;
+  text-align: center;
+  width: 40rem;
+  margin: 0 auto;
+  background-image: url('../public/images/border2.svg'), url('../public/images/border.svg');
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center;
+  background-size: cover;
+}
+
+/* Título do container */
+.container h1 {
+  color: #FFC046;
+}
+
+/* Estilo do input de texto */
+input {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  text-align: center;
+  background-color: #c5c5c5;
+}
+
+/* Estilo dos botões */
+.btn {
+  background: url('../public/images/button-bg-01.svg');
+  width: 134px;
+  height: 34px;
+  color: rgb(255, 192, 70);
+  font-weight: 700;
+  border: none;
+  position: relative;
+  margin: 10px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+/* Estilo da sequência de letras */
+#sequence {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Estilo do feedback */
+#feedback {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #c5c5c5;
+}
+
+/* Estilo para o feedback quando o jogo termina */
+.game-over {
+  color: red;
+}
+
+/* Estilo das caixas de letras */
+.letter-box {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin: 5px;
+  font-size: 24px;
+  border: 2px solid #f3dea342;
+  background-color: #333;
+  color: rgb(255, 192, 70);
+}
+
+/* Estilo das caixas de letras corretas e incorretas */
+.letter-box.correct {
+  background-color: green;
+  border: 2px solid #000000;
+  color: white;
+}
+
+.letter-box.incorrect {
+  background-color: red;
+  border: 2px solid #000000;
+  color: white;
+}
+
+/* Estilo adicional para letras corretas e incorretas */
+.correct {
+  background-color: rgba(0, 255, 0, 0.486);
+  color: white;
+}
+
+.incorrect {
+  background-color: rgba(255, 0, 0, 0.486);
+  color: white;
+}
+
+/* Estilo do container da barra de progresso */
+.progress-bar-container {
+  width: 70%;
+  height: 10px;
+  background: #ffffffa9;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Estilo da barra de progresso */
+.progress-bar {
+  height: 100%;
+  border-radius: 10px;
+  background-color: rgb(138, 106, 106);
+  transition: width 1s linear;
+}
+
+/* Estilo dos thumbnails das imagens de perfil */
+.profile-thumbnail {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 5px;
+  border: 2px solid transparent;
+  transition: border 0.3s;
+  margin-bottom: 1.5rem;
+}
+
+/* Efeito ao passar o mouse sobre os thumbnails */
+.profile-thumbnail:hover {
+  border: 2px solid rgba(252, 184, 48, 0.678);
+}
+
+/* Estilo para o thumbnail selecionado */
+.profile-thumbnail-selected {
+  border: 2px solid rgba(252, 184, 48, 0.678);
+}
+
+/* Estilo do container dos thumbnails */
+.profile-thumbnail-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+/* Estilo da imagem de perfil selecionada */
+.profile-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+/* Estilo do container principal */
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap; /* Permite quebra de linha */
+}
+
+/* Estilo do container do jogo */
+.game-container {
+  flex: 1;
+}
+
+/* Estilo do container do ranking */
+.ranking-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #333;
+  background-image: url('../public/images/borderRank.svg');
+  max-width: 300px;
+  color: rgb(216, 216, 216);
+  margin: 0 auto;
+}
+
+/* Estilo da tabela de ranking */
+.ranking-table {
+  width: 100%;
+}
+
+.ranking-table th, .ranking-table td {
+  padding: 8px;
+  text-align: center;
+  border: none; /* Remove a borda */
+}
+
+/* Estilo do cabeçalho da tabela de ranking */
+.ranking-table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Estilo da imagem do ranking */
+.ranking-image {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+/* Estilo do botão para limpar o ranking */
+.btn-clearrank {
+  background-size: contain; /* Ajuste para que o SVG seja dimensionado corretamente */
+  width: auto;
+  margin: auto;
+  display: block;
+  margin-top: 10px;
+}
+
+.namehide {
+  display: none;
+}
+
+
+/* Estilos responsivos */
+@media (max-width: 1200px) {
+  /* Ajustes para telas menores que 1200px */
+  .container {
+    width: 35rem;
+    padding: 40px;
+  }
+
+  .letter-box {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 20px;
+  }
+
+  .profile-thumbnail {
+    width: 45px;
+    height: 45px;
+  }
+
+  .profile-image {
+    width: 70px;
+    height: 70px;
+  }
+
+  .ranking-container {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #333;
+    background-image: url('../public/images/borderRank.svg');
+    max-width: 300px;
+    color: rgb(216, 216, 216);
+    margin: 0 auto;
+    position: relative;
+    bottom: auto;
+    right: auto;
+  }
+}
+
+@media (max-width: 992px) {
+  /* Ajustes para tablets */
+  .container {
+    width: 30rem;
+    padding: 30px;
+  }
+
+  .letter-box {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+  }
+
+  .profile-thumbnail {
+    width: 40px;
+    height: 40px;
+  }
+
+  .profile-image {
+    width: 60px;
+    height: 60px;
+  }
+
+  .ranking-container {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Ajustes para smartphones grandes */
+  .main-container {
+    flex-direction: column; /* Coloca os containers em coluna */
+    align-items: center;
+  }
+
+  .container {
+    width: 25rem;
+    padding: 20px;
+  }
+
+  .letter-box {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+  }
+
+  .profile-thumbnail {
+    width: 35px;
+    height: 35px;
+  }
+
+  .profile-image {
+    width: 50px;
+    height: 50px;
+  }
+
+  .ranking-container {
+    max-width: 100%;
+    margin-top: 20px; /* Espaço acima do ranking */
+  }
+}
+
+@media (max-width: 576px) {
+  /* Ajustes para smartphones pequenos */
+  .main-container {
+    flex-direction: column; /* Coloca os containers em coluna */
+    align-items: center;
+  }
+
+  .container {
+    width: 20rem;
+    padding: 10px;
+  }
+
+  .letter-box {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+  }
+
+  .profile-thumbnail {
+    width: 30px;
+    height: 30px;
+  }
+
+  .profile-image {
+    width: 40px;
+    height: 40px;
+  }
+
+  .ranking-container {
+    max-width: 100%;
+    margin-top: 10px;
+  }
+
+  /* Ocultar títulos em telas pequenas */
+  .container h1, .ranking-container h2 {
+    font-size: 1.5rem;
+  }
+}
